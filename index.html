@@ -53,7 +53,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -61,7 +61,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -69,7 +69,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -77,7 +77,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -85,7 +85,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -93,7 +93,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -101,7 +101,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -109,7 +109,7 @@
                 <div class="text-center">
                     <p class="mt-4 mb-1">Lily Blossom</p>
                     <p class="font-bold mb-1">20 USD</p>
-                    <button class="bg-[#E95A08] text-white px-5 py-2 md:px-20">ADD TO CART</button>
+                    <button class="bttn bg-[#E95A08] hover:bg-[#e95a08c6] text-white px-5 py-2 md:px-20">ADD TO CART</button>
                 </div>
             </div>
                       
@@ -163,7 +163,7 @@
             <div class="text-center py-30 bg-center bg-cover" style="background-image: url(./assets/news-letter-bg.png);">
                 <h1 class="mb-5  text-2xl font-bold text-white md:text-4xl">Join the colorful Bunch</h1>
                 <input class="bg-white py-2 px-3 md:px-5 md:w-[40%]" type="email" placeholder="Write Email">
-                <button class="bg-[#E95A08] -ml-2 text-white px-4 py-2">Subscribe</button>
+                <button class="tbn bg-[#E95A08] hover:bg-[#e95a08c6] -ml-2 text-white px-4 py-2">Subscribe</button>
             </div>
         </section>
         <section class="w-[88%] mx-auto mt-15 p-5">
@@ -202,5 +202,18 @@
         </section>
     </footer>
     <p class="text-center bg-gray-900 text-white py-4">&copy2025 FlowerShop | All rights reserved. <br><span class="text-green-500"> Developed by <span class="underline"><a href="https://www.facebook.com/md.ayas.998691">AYAS MAHMUD</a></span></span></p>
+    
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const cartButtons = document.querySelectorAll('.bttn');
+
+    cartButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        alert('Item added to cart!');
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
